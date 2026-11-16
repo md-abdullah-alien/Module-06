@@ -84,27 +84,31 @@
 
 /* Action Styles */
 
-.action-container{
+.action-container {
     display: flex;
     justify-content: space-around;
     padding: 116px 159px 0px 141px;
-    
+
 }
-.action-contain{
+
+.action-contain {
     width: 517px;
     height: 203px;
     padding: 62.5px 0px 62.5px 0px;
 }
-.action-title{
+
+.action-title {
     font-weight: bold;
     font-size: 42px;
 }
-.action-description{
+
+.action-description {
     color: #252432;
     font-weight: normal;
     font-size: 24px;
 }
-.action-btn{
+
+.action-btn {
     font-size: px;
     border: none;
     color: white;
@@ -112,8 +116,54 @@
     height: 48px;
     border-radius: 10px;
 }
-.action-img{
+
+.action-img {
     width: 403px;
     height: 328px;
     border-radius: 48px;
+}
+
+
+/* Productive-User Styles */
+
+.productive-user {
+    width: 1140px;
+    height: 306px;
+    padding: 116px 159px 0px 141px;
+}
+
+.productive-user-box {
+    background-color: rgba(78, 71, 255, 0.1);
+    width: 856px;
+    height: 206px;
+    padding: 50px 142px 50px 142px;
+}
+
+.productive-user-title {
+    color: #252432;
+    width: 856px;
+    height: 45px;
+    font-weight: bold;
+    font-size: 28px;
+    text-align: center;
+}
+
+.productive-user-descriptions {
+    display: flex;
+    justify-content: space-around;
+    width: 856px;
+    height: 121px;
+}
+
+.productive-user-percentage {
+    color: #4E47FF;
+    font-weight: bold;
+    font-size: 80px;
+    margin-top: 100px;
+}
+
+.productive-user-description {
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: normal;
+    font-size: 20px;
 }
